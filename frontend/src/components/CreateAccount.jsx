@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function Login() {
+function CreateAccount() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
 
@@ -12,7 +12,7 @@ function Login() {
   return (
     <div className="min-h-screen bg-gray-900 text-gray-200">
       <div className="text-center pt-8">
-        <h2 className="text-4xl font-bold">Login</h2>
+        <h2 className="text-4xl font-bold">Create Account</h2>
       </div>
       <div className="pt-12">
         <form onSubmit={handleSubmit} className="text-center">
@@ -48,4 +48,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default CreateAccount;
