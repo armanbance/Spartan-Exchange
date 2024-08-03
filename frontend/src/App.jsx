@@ -1,12 +1,33 @@
 import { useState } from 'react'
-import './index.css'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Login from './components/Login';
 
+import './index.css'
 
 function App() {
   return (
-    <>
-      <h1 className='text-orange-500 text-center'>Title Page</h1>
-    </>
+    <Router>
+    <div className="bg-slate-900 min-h-screen">
+      <nav className="bg-slate-600 shadow-md">
+        <div className="container mx-auto px-4 py-2 flex justify-between items-center">
+            <Link className="text-gray-300 hover:text-blue-700 px-3 text-2xl font-bold" to="/login">Login</Link>
+          <div>
+            <Link className="text-gray-300 hover:text-blue-700 px-3" to="/">Home</Link>
+            <Link className="text-gray-300 hover:text-blue-700 px-3" to="/about">About</Link>
+          </div>
+        </div>
+      </nav>
+      <div className="container mx-auto p-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </div>
+    </div>
+  </Router>
   )
 }
 
