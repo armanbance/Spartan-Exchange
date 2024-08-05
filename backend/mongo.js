@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
-const password = MONGODB_URI="mongodb+srv://armanbance:AkqlWksJQg3s2Kgu@cluster0.tkdqbww.mongodb.net/noteApp?retryWrites=true&w=majority&appName=Cluster0"
+const config = require('./utils/config')
+const password = config.MONGODB_URI
+
 const url =
   `mongodb+srv://fullstack:${password}@cluster0.o1opl.mongodb.net/?retryWrites=true&w=majority`
 
