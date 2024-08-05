@@ -1,34 +1,10 @@
 const express = require('express')
-const app = express()
-
-const notes = [
-    {
-      id: "1",
-      content: "react is easy",
-      important: true
-    },
-    {
-      id: "2",
-      content: "Browser can execute only JavaScript",
-      important: false
-    },
-    {
-      id: "3",
-      content: "GET and POST are the most important methods of HTTP protocol",
-      important: true
-    }
-  ]
+const config = require('./utils/config')
+// const app = express()
+const app = require('./app')
   
-
-app.get('/', (request, response) => {
-  response.send('<h1>Hello World!</h1>')
-})
-
-app.get('/api/users', (request, response) => {
-  response.json(notes)
-})
 
 const PORT = 3001
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`)
+  console.log(`Server running on port ${config.PORT}`,`${config.MONGODB_URI}`)
 })
