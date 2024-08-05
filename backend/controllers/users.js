@@ -20,7 +20,8 @@ usersRouter.post('/', async (request, response) => { //on app.js when this is us
 })
 
 usersRouter.get('/', async (request, response) => {
-    const users = await User.find({}).populate('notes', {content:1, important:1}) //whhen we get users we can see the notes they have, instead of just the id of the notes they have.
+    const users = await User.find({})
+      // .populate('notes', {content:1, important:1}) //whhen we get users we can see the notes they have, instead of just the id of the notes they have.
     //in prev line, content:1 and important:1 make sure only content and important are shown
     response.json(users)
   })
