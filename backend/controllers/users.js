@@ -3,17 +3,17 @@ const usersRouter = require('express').Router()
 const User = require('../models/user')
 
 usersRouter.post('/', async (request, response) => { //on app.js when this is used, it is /api/users
-  const { username, name, password } = request.body
+  const { username, fullName, password } = request.body
 
   const saltRounds = 10
   const passwordHash = await bcrypt.hash(password, saltRounds)
 
   const user = new User({
     username,
-    name,
+    fullName,
     passwordHash,
   })
-
+  
   const savedUser = await user.save()
 
   response.status(201).json(savedUser)

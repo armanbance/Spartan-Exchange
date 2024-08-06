@@ -1,0 +1,24 @@
+GET http://localhost:3001/api/users
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "padme",
+    "fullName": "Padme Amidala",
+    "password": "123"
+}
+
+
+# GET http://localhost:3001/api/users
+# ###
+
+# POST http://localhost:3001/api/users
+# Content-Type: application/json
+
+# {
+#     "username": "obi-wan",
+#     "name": "Obi-Wan Kenobi",
+#     "password": "satine"
+# }
