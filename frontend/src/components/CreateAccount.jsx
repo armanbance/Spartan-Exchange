@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 function CreateAccount() {
   const [username, setUsername] = useState('')
   const [password, setPassword] = useState('')
-  const [fullName, setFullName] = useState('')
+  const [email, setEmail] = useState('')
   const [notification, setNotification] = useState('')
   const [user, setUser] = useState(null)
 
@@ -15,30 +15,26 @@ function CreateAccount() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const newUser = {
       username: username,
       password: password,
-      fullName: fullName
+      email: email
     }
-    console.log("FULLNAME:",newUser.fullName)
+    console.log("email:",newUser.email)
     try {
       await userService.createUser(newUser)
-      setNotification(`Hello ${newUser.fullName}! Going to login page...`)
+      setNotification(`Account creation successful! Going to login page...`)
       setUser(newUser)
+      // setTimeout(() => {
+      //   navigate('/login');
+      // }, 1750);
     }
     catch (error) {
       setNotification('Username is already taken sorry bucko')
     }
     setUsername('')
-    setFullName('')
+    setEmail('')
     setPassword('')
-
-    setTimeout(() => {
-      navigate('/login');
-    }, 1500);
-    
-
   }
   return (
     <div className="min-h-screen bg-gray-900 text-gray-200">
@@ -50,6 +46,18 @@ function CreateAccount() {
       </div>
       <div className="pt-12">
         <form onSubmit={handleSubmit} className="text-center">
+        <div className="mb-4">
+            <label className="block text-lg mb-2">Email:</label>
+            <input
+              className="bg-gray-200 text-gray-900 p-2 rounded w-64"
+              placeholder="Ex: Anakin Skywalker"  //Enter First and Last Name
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+
           <div className="mb-4">
             <label className="block text-lg mb-2">Username:</label>
             <input
@@ -61,19 +69,6 @@ function CreateAccount() {
               required
             />
           </div>
-
-          <div className="mb-4">
-            <label className="block text-lg mb-2">Full Name:</label>
-            <input
-              className="bg-gray-200 text-gray-900 p-2 rounded w-64"
-              placeholder="Ex: Anakin Skywalker"  //Enter First and Last Name
-              type="text"
-              value={fullName}
-              onChange={(e) => setFullName(e.target.value)}
-              required
-            />
-          </div>
-
           <div className="mb-4">
             <label className="block text-lg mb-2">Password:</label>
             <input

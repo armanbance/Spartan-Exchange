@@ -3,14 +3,14 @@ const usersRouter = require('express').Router()
 const User = require('../models/user')
 
 usersRouter.post('/', async (request, response) => { //on app.js when this is used, it is /api/users
-  const { username, fullName, password } = request.body
+  const { username, email, password } = request.body
 
   const saltRounds = 10
   const passwordHash = await bcrypt.hash(password, saltRounds)
 
   const user = new User({
     username,
-    fullName,
+    email,
     passwordHash,
   })
   
@@ -25,5 +25,10 @@ usersRouter.get('/', async (request, response) => {
     //in prev line, content:1 and important:1 make sure only content and important are shown
     response.json(users)
   })
+
+usersRouter.delete('/', async (request, response) => {
+  const deleteAll = await User.deleteMany({})
+  response.json(deleteAll)
+})
 
 module.exports = usersRouter
