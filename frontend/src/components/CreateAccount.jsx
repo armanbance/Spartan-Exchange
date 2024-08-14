@@ -46,7 +46,7 @@ function CreateAccount() {
     setPassword('')
   }
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-200">
+    <div className="min-h-screen text-white">
       <div className="text-center pt-8">
         <h2 className="text-4xl font-bold">Create a New Account</h2>
       </div>
