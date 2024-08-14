@@ -25,13 +25,22 @@ function CreateAccount() {
       await userService.createUser(newUser)
       setNotification(`Account creation successful! Going to login page...`)
       setUser(newUser)
-      // setTimeout(() => {
-      //   navigate('/login');
-      // }, 1750);
+      setTimeout(() => {
+        navigate('/login');
+      }, 1750);
     }
     catch (error) {
-      setNotification('Username is already taken sorry bucko')
+      if (error.message.includes(401)) {
+        setNotification(`Email already in use`)
+      }
+      else {
+        setNotification(`Username is taken, please try another`)
+      }
+      
     }
+    setTimeout(() => {
+      setNotification('');
+    }, 3000);
     setUsername('')
     setEmail('')
     setPassword('')

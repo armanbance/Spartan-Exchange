@@ -6,10 +6,17 @@ const userSchema = new mongoose.Schema({
     required:true,
     unique:true
   },
-  email: String,
+  email: {
+    type:String,
+    required:true,
+    unique:true
+  },
   passwordHash: String
   
 })
+// userSchema.index({ email: 1 }, { unique: true });
+// userSchema.index({ username: 1 }, { unique: true });
+//if duplicate emails stop working just uncomment this
 
 userSchema.set('toJSON', {
   transform: (document, returnedObject) => {

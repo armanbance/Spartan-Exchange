@@ -1,16 +1,24 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import loginService from '../services/login'
 import Notification from "./Notification";
 import { useNavigate } from "react-router-dom";
 
-function Login() {
+function Login({ setUser }) {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [notification, setNotification] = useState('')
-  const [user, setUser] = useState('')
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const loggedUserJSON = window.localStorage.getItem('loggedInSpartan')
+    if (loggedUserJSON) {
+      const tokenedUser = JSON.parse(loggedUserJSON)
+      setUser(tokenedUser)
+      loginService.setToken(tokenedUser.token)
+    }
+  }, [])
 
 
   const handleSubmit = async (e) => {
@@ -22,14 +30,15 @@ function Login() {
     try {
       const response = await loginService.login(credentials)
       setNotification(`Signed in.`)
-      setUser(response)
       console.log("USER",response)
       window.localStorage.setItem(
         'loggedInSpartan', JSON.stringify(response)
       )
-      // setTimeout(() => {
-      //   navigate('/');
-      // }, 1000);
+      loginService.setToken(response.token)
+      setUser(response)
+      setTimeout(() => {
+        navigate('/');
+      }, 1000);
     }
     catch (error) {
       setNotification("Invalid credentials")

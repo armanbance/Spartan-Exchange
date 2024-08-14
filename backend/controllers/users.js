@@ -2,6 +2,8 @@ const bcrypt = require('bcrypt')
 const usersRouter = require('express').Router()
 const User = require('../models/user')
 
+
+
 usersRouter.post('/', async (request, response) => { //on app.js when this is used, it is /api/users
   const { username, email, password } = request.body
 
@@ -13,10 +15,22 @@ usersRouter.post('/', async (request, response) => { //on app.js when this is us
     email,
     passwordHash,
   })
-  
-  const savedUser = await user.save()
 
-  response.status(201).json(savedUser)
+  try{
+    const savedUser = await user.save()
+    response.status(201).json(savedUser)
+  }
+  catch (error) {
+    if(error.message.includes("email")) {
+      console.log("Duplicate email")
+      response.status(401).send("Email already in use")
+    }
+    else {
+      console.log("Duplicate username")
+      response.status(400).send("Username is taken")
+    }
+    
+  }
 })
 
 usersRouter.get('/', async (request, response) => {
