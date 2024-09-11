@@ -1,5 +1,1050 @@
 {
-    "notes": {
-        
+    "search_metadata": {
+        "id": "66bd407d5ddfba519937412d",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/22b22716c0a03deb/66bd407d5ddfba519937412d.json",
+        "created_at": "2024-08-14 23:40:45 UTC",
+        "processed_at": "2024-08-14 23:40:45 UTC",
+        "google_url": "https://www.google.com/search?q=SRAC+SJSU&oq=SRAC+SJSU&uule=w+CAIQICIhU2FuIEpvc2UsQ2FsaWZvcm5pYSxVbml0ZWQgU3RhdGVz&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/22b22716c0a03deb/66bd407d5ddfba519937412d.html",
+        "total_time_taken": 1.26
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "SRAC SJSU",
+        "location_requested": "San Jose, California, United States",
+        "location_used": "San Jose,California,United States",
+        "google_domain": "google.com",
+        "hl": "en",
+        "gl": "us",
+        "device": "desktop"
+    },
+    "search_information": {
+        "query_displayed": "SRAC SJSU",
+        "total_results": 4310,
+        "time_taken_displayed": 0.43,
+        "organic_results_state": "Results for exact spelling"
+    },
+    "knowledge_graph": {
+        "title": "Student Union, Inc. Spartan Recreation and Aquatic Center",
+        "thumbnail": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/519019cc46e41fd3aa661eaa3036f69712846e6fa3f9e1289a0611081e19fc3f.jpeg",
+        "type": "Recreation center in San Jose, California",
+        "entity_type": "",
+        "kgmid": "/g/11h109jgv8",
+        "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/g/11h109jgv8&hl=en-US&q=Student+Union%2C+Inc.+Spartan+Recreation+and+Aquatic+Center",
+        "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en-US&kgmid=%2Fg%2F11h109jgv8&location=San+Jose%2C+California%2C+United+States&q=Student+Union%2C+Inc.+Spartan+Recreation+and+Aquatic+Center",
+        "place_id": "ChIJITHqgdPNj4AR55Tsht9Dsw8",
+        "website": "https://www.spartanrecreation.com/",
+        "directions": "https://maps.google.com/maps?uule=w+CAIQICIhU2FuIEpvc2UsQ2FsaWZvcm5pYSxVbml0ZWQgU3RhdGVz&gl=us&hl=en&um=1&ie=UTF-8&fb=1&sa=X&geocode=KSEx6oHTzY-AMeeU7IbfQ7MP&daddr=324+Paseo+de+San+Carlos,+San+Jose,+CA+95192",
+        "local_map": {
+            "image": null,
+            "link": "https://www.google.com/maps/place/Student+Union,+Inc.+Spartan+Recreation+and+Aquatic+Center/@37.334437,-121.8796791,15z/data=!4m2!3m1!1s0x0:0xfb343df86ec94e7?sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ_BJ6BAgWEAA&hl=en&gl=us",
+            "gps_coordinates": {
+                "latitude": 37.334437,
+                "longitude": -121.8796791,
+                "altitude": 15
+            }
+        },
+        "rating": 4.7,
+        "review_count": 256,
+        "service_options": "Has basketball court",
+        "located_in": "SJSU",
+        "address": "324 Paseo de San Carlos, San Jose, CA 95192",
+        "address_links": [
+            {
+                "text": "Address",
+                "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=student+union,+inc.+spartan+recreation+and+aquatic+center+address&ludocid=1131322558720546023&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ6BN6BAgpEAI"
+            }
+        ],
+        "raw_hours": "Open ⋅ Closes 9 PMUpdated by this business 12 weeks agoWednesday7 AM–9 PMThursday7 AM–9 PMFriday7 AM–9 PMSaturday9 AM–7 PMSunday9 AM–7 PMMonday2–11 PMTuesday2–11 PMUpdated by this business 12 weeks agoSuggest new hoursUnable to add this file. Please check that it is a valid photo.",
+        "hours": {
+            "wednesday": {
+                "opens": "7 AM",
+                "closes": "9 PM"
+            },
+            "thursday": {
+                "opens": "7 AM",
+                "closes": "9 PM"
+            },
+            "friday": {
+                "opens": "7 AM",
+                "closes": "9 PM"
+            },
+            "saturday": {
+                "opens": "9 AM",
+                "closes": "7 PM"
+            },
+            "sunday": {
+                "opens": "9 AM",
+                "closes": "7 PM"
+            },
+            "monday": {
+                "opens": "2",
+                "closes": "11 PM"
+            },
+            "tuesday": {
+                "opens": "2",
+                "closes": "11 PM"
+            }
+        },
+        "phone": "(408) 924-6368",
+        "mon_tue_wed_thu_fri_sat_sun_live": "Less busy than usual9a12p3p6p9p",
+        "popular_times": {
+            "live": {
+                "time": "Live",
+                "info": "Less busy than usual",
+                "busyness_score": 9
+            },
+            "graph_results": {
+                "monday": [
+                    {
+                        "time": "6 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "7 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "8 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "9 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "12 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "1 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "2 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 27
+                    },
+                    {
+                        "time": "3 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 31
+                    },
+                    {
+                        "time": "4 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 39
+                    },
+                    {
+                        "time": "5 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 58
+                    },
+                    {
+                        "time": "6 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 74
+                    },
+                    {
+                        "time": "7 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 72
+                    },
+                    {
+                        "time": "8 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 63
+                    },
+                    {
+                        "time": "9 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 PM",
+                        "busyness_score": 0
+                    }
+                ],
+                "tuesday": [
+                    {
+                        "time": "6 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "7 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "8 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "9 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "12 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "1 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "2 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 38
+                    },
+                    {
+                        "time": "3 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 49
+                    },
+                    {
+                        "time": "4 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 61
+                    },
+                    {
+                        "time": "5 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 69
+                    },
+                    {
+                        "time": "6 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 70
+                    },
+                    {
+                        "time": "7 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 60
+                    },
+                    {
+                        "time": "8 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 42
+                    },
+                    {
+                        "time": "9 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 PM",
+                        "busyness_score": 0
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "time": "6 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "7 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 22
+                    },
+                    {
+                        "time": "8 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 36
+                    },
+                    {
+                        "time": "9 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 41
+                    },
+                    {
+                        "time": "10 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 45
+                    },
+                    {
+                        "time": "11 AM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 51
+                    },
+                    {
+                        "time": "12 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 55
+                    },
+                    {
+                        "time": "1 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 53
+                    },
+                    {
+                        "time": "2 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 56
+                    },
+                    {
+                        "time": "3 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 62
+                    },
+                    {
+                        "time": "4 PM",
+                        "info": "Usually as busy as it gets",
+                        "busyness_score": 83
+                    },
+                    {
+                        "time": "5 PM",
+                        "info": "Usually as busy as it gets",
+                        "busyness_score": 94
+                    },
+                    {
+                        "time": "6 PM",
+                        "info": "Usually as busy as it gets",
+                        "busyness_score": 100
+                    },
+                    {
+                        "time": "7 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 77
+                    },
+                    {
+                        "time": "8 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 55
+                    },
+                    {
+                        "time": "9 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 PM",
+                        "busyness_score": 0
+                    }
+                ],
+                "thursday": [
+                    {
+                        "time": "6 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "7 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 25
+                    },
+                    {
+                        "time": "8 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 39
+                    },
+                    {
+                        "time": "9 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 44
+                    },
+                    {
+                        "time": "10 AM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 51
+                    },
+                    {
+                        "time": "11 AM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 56
+                    },
+                    {
+                        "time": "12 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 59
+                    },
+                    {
+                        "time": "1 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 55
+                    },
+                    {
+                        "time": "2 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 58
+                    },
+                    {
+                        "time": "3 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 65
+                    },
+                    {
+                        "time": "4 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 68
+                    },
+                    {
+                        "time": "5 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 73
+                    },
+                    {
+                        "time": "6 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 72
+                    },
+                    {
+                        "time": "7 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 62
+                    },
+                    {
+                        "time": "8 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 47
+                    },
+                    {
+                        "time": "9 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 PM",
+                        "busyness_score": 0
+                    }
+                ],
+                "friday": [
+                    {
+                        "time": "6 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "7 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 25
+                    },
+                    {
+                        "time": "8 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 36
+                    },
+                    {
+                        "time": "9 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 35
+                    },
+                    {
+                        "time": "10 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 35
+                    },
+                    {
+                        "time": "11 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 33
+                    },
+                    {
+                        "time": "12 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 37
+                    },
+                    {
+                        "time": "1 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 42
+                    },
+                    {
+                        "time": "2 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 45
+                    },
+                    {
+                        "time": "3 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 55
+                    },
+                    {
+                        "time": "4 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 61
+                    },
+                    {
+                        "time": "5 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 67
+                    },
+                    {
+                        "time": "6 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 64
+                    },
+                    {
+                        "time": "7 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 57
+                    },
+                    {
+                        "time": "8 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 43
+                    },
+                    {
+                        "time": "9 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 PM",
+                        "busyness_score": 0
+                    }
+                ],
+                "saturday": [
+                    {
+                        "time": "6 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "7 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "8 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "9 AM",
+                        "info": "Usually not busy",
+                        "busyness_score": 13
+                    },
+                    {
+                        "time": "10 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 20
+                    },
+                    {
+                        "time": "11 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 29
+                    },
+                    {
+                        "time": "12 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 32
+                    },
+                    {
+                        "time": "1 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 38
+                    },
+                    {
+                        "time": "2 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 40
+                    },
+                    {
+                        "time": "3 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 45
+                    },
+                    {
+                        "time": "4 PM",
+                        "info": "Usually a little busy",
+                        "busyness_score": 51
+                    },
+                    {
+                        "time": "5 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 43
+                    },
+                    {
+                        "time": "6 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 28
+                    },
+                    {
+                        "time": "7 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "8 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "9 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 PM",
+                        "busyness_score": 0
+                    }
+                ],
+                "sunday": [
+                    {
+                        "time": "6 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "7 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "8 AM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "9 AM",
+                        "info": "Usually not busy",
+                        "busyness_score": 9
+                    },
+                    {
+                        "time": "10 AM",
+                        "info": "Usually not busy",
+                        "busyness_score": 16
+                    },
+                    {
+                        "time": "11 AM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 25
+                    },
+                    {
+                        "time": "12 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 31
+                    },
+                    {
+                        "time": "1 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 39
+                    },
+                    {
+                        "time": "2 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 34
+                    },
+                    {
+                        "time": "3 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 35
+                    },
+                    {
+                        "time": "4 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 34
+                    },
+                    {
+                        "time": "5 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 34
+                    },
+                    {
+                        "time": "6 PM",
+                        "info": "Usually not too busy",
+                        "busyness_score": 29
+                    },
+                    {
+                        "time": "7 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "8 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "9 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "10 PM",
+                        "busyness_score": 0
+                    },
+                    {
+                        "time": "11 PM",
+                        "busyness_score": 0
+                    }
+                ]
+            }
+        },
+        "merchant_description": "\"Student Union, Inc. Spartan Recreation and Aquatic Center was awarded the Athletic Business Facility of the year award and NIRSA Facility of Merit in 2021. We are available for SJSU matriculated students, faculty, and staff to participate in our state of the art facilities. We are here to help you continue or start a healthy and active lifestyle with various programs. Join a fitness class, take a climb on our 40' climbing or bouldering walls, take a swim in one of our (3) pools, or join an intramural or club sport team. Not sure where to start on your fitness journey, our personal training program to get you started on your goals. We look forward to seeing you soon.\"",
+        "user_reviews": [
+            {
+                "summary": "Excellent facility with quality pools, weight and cardio equipment.",
+                "link": "https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s108248941979029823171!2s0x808fcdd381ea3121:0xfb343df86ec94e7?ved=1t:31295&ictx=111",
+                "user": {
+                    "name": "Will Layne",
+                    "link": "https://www.google.com/maps/contrib/108248941979029823171?hl=en-US&ved=1t:31296&ictx=111",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocIDJ7LW8SmzSv5vpMMjjE79zAbc12MVdnrnHO5PeAaT9u0xbA=s40-w40-c-h40-rp-br100"
+                }
+            },
+            {
+                "summary": "Well maintained place and excellent recreational options",
+                "link": "https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s104598090528004305751!2s0x808fcdd381ea3121:0xfb343df86ec94e7?ved=1t:31295&ictx=111",
+                "user": {
+                    "name": "harneet kaur",
+                    "link": "https://www.google.com/maps/contrib/104598090528004305751?hl=en-US&ved=1t:31296&ictx=111",
+                    "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWUUiiJJMZhTILPJg-J4OAQiMdpDiGpE908kv5uLqpqakYARCZp=s40-w40-c-h40-rp-ba3-br100"
+                }
+            },
+            {
+                "summary": "Because yesterday I had very bad experience for first aid facilities.",
+                "link": "https://www.google.com/maps/reviews/data=!4m5!14m4!1m3!1m2!1s111122765700107838214!2s0x808fcdd381ea3121:0xfb343df86ec94e7?ved=1t:31295&ictx=111",
+                "user": {
+                    "name": "Deep Khajanchi",
+                    "link": "https://www.google.com/maps/contrib/111122765700107838214?hl=en-US&ved=1t:31296&ictx=111",
+                    "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJhDoo4x8ZIX7_NqRgSGqLMulnefbk6zIXy01kYlXJtNzrZO62q=s40-w40-c-h40-rp-ba5-br100"
+                }
+            }
+        ],
+        "reviews_from_the_web": [
+            {
+                "company": "Facebook",
+                "link": "https://www.facebook.com/sjsuspartanrec/",
+                "rating": 5,
+                "review_count": 7
+            }
+        ],
+        "unclaimed_listing": true,
+        "profiles": [
+            {
+                "name": "Instagram",
+                "link": "https://www.instagram.com/sjsu_spartanrec/",
+                "image": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/519019cc46e41fd3aa661eaa3036f6977d46841d4396fd02dd19ccc249fe146f35bd484508dccae1.png"
+            },
+            {
+                "name": "Facebook",
+                "link": "https://www.facebook.com/sjsuspartanrec/",
+                "image": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/519019cc46e41fd3aa661eaa3036f6977d46841d4396fd0299407280eddbf630fa760bd41dfa0435.png"
+            }
+        ],
+        "people_also_search_for": [
+            {
+                "name": "Timpany Center",
+                "extensions": [
+                    "Swimming pool"
+                ],
+                "image": "https://lh5.googleusercontent.com/p/AF1QipOX8BYQlJhkVzGrJMPYUSEHCx3Tlzlxi5i2YE_c=w72-h72-n-k-no"
+            },
+            {
+                "name": "Camden Community Center",
+                "extensions": [
+                    "Community center"
+                ],
+                "image": "https://lh5.googleusercontent.com/p/AF1QipPhDHhiXMOevdGV76liJIxFkCLu8Btjt4fzZBno=w72-h72-n-k-no"
+            },
+            {
+                "name": "Sullivan Aquatic Center",
+                "extensions": [
+                    "Aquatic centre"
+                ],
+                "image": "https://lh5.googleusercontent.com/p/AF1QipN5ohdVVj1ulU_5dMWbNuUWZc1QdnSxJIIzp1cn=w72-h72-n-k-no"
+            },
+            {
+                "name": "Waterworks Aquatics San Jose",
+                "extensions": [
+                    "Swimming school"
+                ],
+                "image": "https://lh5.googleusercontent.com/p/AF1QipPNC2567udBBmJlhBSerg7AHiyIHuzC3NuSFTUY=w72-h72-n-k-no"
+            },
+            {
+                "name": "Rotary Ryland Pool",
+                "extensions": [
+                    "Public swimming pool"
+                ],
+                "image": "https://lh5.googleusercontent.com/p/AF1QipOGUyK3YHnTliM8Zm8SLMp9uaFuf2mfgjjPicLc=w72-h72-n-k-no"
+            }
+        ]
+    },
+    "related_questions": [
+        {
+            "question": "Is SJSU SRAC free for students?",
+            "snippet": "SRAC is free to all enrolled SJSU students. Paid memberships are available to faculty, staff, alumni and community members.",
+            "title": "SJSU Opens $130 Million Spartan Recreation and Aquatic Center",
+            "date": "Apr 15, 2019",
+            "link": "https://blogs.sjsu.edu/newsroom/2019/sjsu-opens-130-million-spartan-recreation-and-aquatic-center/#:~:text=SRAC%20is%20free%20to%20all,staff%2C%20alumni%20and%20community%20members.",
+            "displayed_link": "https://blogs.sjsu.edu › newsroom › sjsu-opens-130-milli...",
+            "source_logo": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/f2d3c54847e8e3e907d92216b78578ed3bb84a062396c42aaaae9167fa748c8a.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UGVsVlBhVGxoZG5jMVEwcFdSVXhSWjBOdlUwTkpTVXBqUjFkSFlrUmxkWGxhWjBsaU5YbEZOa2xSUVVGWmRXVk1lVXhaY1VjMWMzbHZiVWRPY0RCQk1tTnNTV0Z5RWhkbVZVTTVXbkZwZGtkd1dHWnJVRWxRYzFsbE1UQkJWUm9pUVVaWWNrVmpjSEpuYjJKNk1XWnNMVGg1WWtkeVdUZGlWVU5YTjBKcE1HRmpRUSIsImZjdiI6IjMiLCJlaSI6ImZVQzlacWl2R3BYZmtQSVBzWWUxMEFVIiwicWMiOiJDZ2x6Y21GaklITnFjM1VRQUgwbGd6c18iLCJxdWVzdGlvbiI6IklzIFNKU1UgU1JBQyBmcmVlIGZvciBzdHVkZW50cz8iLCJsayI6IkdoNXBjeUJ6YW5OMUlITnlZV01nWm5KbFpTQm1iM0lnYzNSMVpHVnVkSE0iLCJicyI6ImMzMk9Pd3JDUUJCQXNWMFVCRC1FRkRxZ1ZqYVNDd1JSQkZPNlNPb2xtU1FiNDBaMk5vSW5FaHNQNE9uY2lBRlJzSnBpM3BzM2JNUEdXd0llOEQzdzNYSUZpVWFFcE5SQXBvcFJHZktkLTlBRGR5UUpLS2NLU0l2b2wySUwxbV91bkRTU2tha3NLeXRmcDk3QTdUWHl4NHJaOHJwRTZ3Z0ZRVWtJM0FpRGtJa3pnb0QwY3ZTZFc3c3V4elZGbHNwcmlyNG9Gcko1bUFrRDhwM0hBaU9qWlNRS1FKVktoYWlsU2tFTGRjRFlkeDRkYi1aT1h0XzhJZTNzdHA0IiwiaWQiOiJmY18xIn0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UGVsVlBhVGxoZG5jMVEwcFdSVXhSWjBOdlUwTkpTVXBqUjFkSFlrUmxkWGxhWjBsaU5YbEZOa2xSUVVGWmRXVk1lVXhaY1VjMWMzbHZiVWRPY0RCQk1tTnNTV0Z5RWhkbVZVTTVXbkZwZGtkd1dHWnJVRWxRYzFsbE1UQkJWUm9pUVVaWWNrVmpjSEpuYjJKNk1XWnNMVGg1WWtkeVdUZGlWVU5YTjBKcE1HRmpRUSIsImZjdiI6IjMiLCJlaSI6ImZVQzlacWl2R3BYZmtQSVBzWWUxMEFVIiwicWMiOiJDZ2x6Y21GaklITnFjM1VRQUgwbGd6c18iLCJxdWVzdGlvbiI6IklzIFNKU1UgU1JBQyBmcmVlIGZvciBzdHVkZW50cz8iLCJsayI6IkdoNXBjeUJ6YW5OMUlITnlZV01nWm5KbFpTQm1iM0lnYzNSMVpHVnVkSE0iLCJicyI6ImMzMk9Pd3JDUUJCQXNWMFVCRC1FRkRxZ1ZqYVNDd1JSQkZPNlNPb2xtU1FiNDBaMk5vSW5FaHNQNE9uY2lBRlJzSnBpM3BzM2JNUEdXd0llOEQzdzNYSUZpVWFFcE5SQXBvcFJHZktkLTlBRGR5UUpLS2NLU0l2b2wySUwxbV91bkRTU2tha3NLeXRmcDk3QTdUWHl4NHJaOHJwRTZ3Z0ZRVWtJM0FpRGtJa3pnb0QwY3ZTZFc3c3V4elZGbHNwcmlyNG9Gcko1bUFrRDhwM0hBaU9qWlNRS1FKVktoYWlsU2tFTGRjRFlkeDRkYi1aT1h0XzhJZTNzdHA0IiwiaWQiOiJmY18xIn0%3D"
+        },
+        {
+            "question": "Is SJSU prestigious?",
+            "snippet": "San Jose State University's ranking in the 2024 edition of Best Colleges is Regional Universities West, #4.",
+            "title": "San Jose State University | US News Best Colleges - USNews.com",
+            "link": "https://www.usnews.com/best-colleges/san-jose-state-university-1155#:~:text=San%20Jose%20State%20University's%20ranking,Regional%20Universities%20West%2C%20%234.",
+            "displayed_link": "https://www.usnews.com › best-colleges › san-jose-state-...",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStt5HT7oQeOqQi6RTRNLkEnjd55GzLgXfekvJDouBJfg&s",
+            "source_logo": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/f2d3c54847e8e3e907d92216b78578ed804773326ad90503dd6c39226888edf7.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UGVsVlBhVGxoZG5jMVEwcFdSVXhSWjBOdlUwTkpTVXBqUjFkSFlrUmxkWGxhWjBsaU5YbEZOa2xSUVVGWmRXVk1lVXhaY1VjMWMzbHZiVWRPY0RCQk1tTnNTV0Z5RWhkbVZVTTVXbkZwZGtkd1dHWnJVRWxRYzFsbE1UQkJWUm9pUVVaWWNrVmpjSEpuYjJKNk1XWnNMVGg1WWtkeVdUZGlWVU5YTjBKcE1HRmpRUSIsImZjdiI6IjMiLCJlaSI6ImZVQzlacWl2R3BYZmtQSVBzWWUxMEFVIiwicWMiOiJDZ2x6Y21GaklITnFjM1VRQUgwbGd6c18iLCJxdWVzdGlvbiI6IklzIFNKU1UgcHJlc3RpZ2lvdXM/IiwibGsiOiJHaE5wY3lCemFuTjFJSEJ5WlhOMGFXZHBiM1Z6IiwiYnMiOiJjMzJPT3dyQ1FCQkFzVjBVQkQtRUZEcWdWamFTQ3dSUkJGTzZTT29sbVNRYjQwWjJOb0luRWhzUDRPbmNpQUZSc0pwaTNwczNiTVBHV3dJZThEM3czWElGaVVhRXBOUkFwb3BSR2ZLZC05QURkeVFKS0tjS1NJdm9sMklMMW1fdW5EU1NrYWtzS3l0ZnA5N0E3VFh5eDRyWjhycEU2d2dGUVVrSTNBaURrSWt6Z29EMGN2U2RXN3N1eHpWRmxzcHJpcjRvRnJKNW1Ba0Q4cDNIQWlPalpTUUtRSlZLaGFpbFNrRUxkY0RZZHg0ZGItWk9YdF84SWUzc3RwNCIsImlkIjoiZmNfMSJ9",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UGVsVlBhVGxoZG5jMVEwcFdSVXhSWjBOdlUwTkpTVXBqUjFkSFlrUmxkWGxhWjBsaU5YbEZOa2xSUVVGWmRXVk1lVXhaY1VjMWMzbHZiVWRPY0RCQk1tTnNTV0Z5RWhkbVZVTTVXbkZwZGtkd1dHWnJVRWxRYzFsbE1UQkJWUm9pUVVaWWNrVmpjSEpuYjJKNk1XWnNMVGg1WWtkeVdUZGlWVU5YTjBKcE1HRmpRUSIsImZjdiI6IjMiLCJlaSI6ImZVQzlacWl2R3BYZmtQSVBzWWUxMEFVIiwicWMiOiJDZ2x6Y21GaklITnFjM1VRQUgwbGd6c18iLCJxdWVzdGlvbiI6IklzIFNKU1UgcHJlc3RpZ2lvdXM%2FIiwibGsiOiJHaE5wY3lCemFuTjFJSEJ5WlhOMGFXZHBiM1Z6IiwiYnMiOiJjMzJPT3dyQ1FCQkFzVjBVQkQtRUZEcWdWamFTQ3dSUkJGTzZTT29sbVNRYjQwWjJOb0luRWhzUDRPbmNpQUZSc0pwaTNwczNiTVBHV3dJZThEM3czWElGaVVhRXBOUkFwb3BSR2ZLZC05QURkeVFKS0tjS1NJdm9sMklMMW1fdW5EU1NrYWtzS3l0ZnA5N0E3VFh5eDRyWjhycEU2d2dGUVVrSTNBaURrSWt6Z29EMGN2U2RXN3N1eHpWRmxzcHJpcjRvRnJKNW1Ba0Q4cDNIQWlPalpTUUtRSlZLaGFpbFNrRUxkY0RZZHg0ZGItWk9YdF84SWUzc3RwNCIsImlkIjoiZmNfMSJ9"
+        },
+        {
+            "question": "Does San Jose State have a gym?",
+            "snippet": "Yosh Uchida Hall/Spartan Gym.",
+            "title": "Facilities - Official Athletics Website - San Jose State Spartans",
+            "link": "https://sjsuspartans.com/facilities#:~:text=Yosh%20Uchida%20Hall%2FSpartan%20Gym",
+            "displayed_link": "https://sjsuspartans.com › facilities",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSOCOkM-NMv1JWFEcxCTLbki0-NSl-S4d8Fn0r1CNUfQ&s",
+            "source_logo": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/f2d3c54847e8e3e907d92216b78578ed2dcdc9c59ec77fb559db508f1e98feaf.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UGVsVlBhVGxoZG5jMVEwcFdSVXhSWjBOdlUwTkpTVXBqUjFkSFlrUmxkWGxhWjBsaU5YbEZOa2xSUVVGWmRXVk1lVXhaY1VjMWMzbHZiVWRPY0RCQk1tTnNTV0Z5RWhkbVZVTTVXbkZwZGtkd1dHWnJVRWxRYzFsbE1UQkJWUm9pUVVaWWNrVmpjSEpuYjJKNk1XWnNMVGg1WWtkeVdUZGlWVU5YTjBKcE1HRmpRUSIsImZjdiI6IjMiLCJlaSI6ImZVQzlacWl2R3BYZmtQSVBzWWUxMEFVIiwicWMiOiJDZ2x6Y21GaklITnFjM1VRQUgwbGd6c18iLCJxdWVzdGlvbiI6IkRvZXMgU2FuIEpvc2UgU3RhdGUgaGF2ZSBhIGd5bT8iLCJsayI6IkdoNWtiMlZ6SUhOaGJpQnFiM05sSUhOMFlYUmxJR2hoZG1VZ1lTQm5lVzAiLCJicyI6ImMzMk9Pd3JDUUJCQXNWMFVCRC1FRkRxZ1ZqYVNDd1JSQkZPNlNPb2xtU1FiNDBaMk5vSW5FaHNQNE9uY2lBRlJzSnBpM3BzM2JNUEdXd0llOEQzdzNYSUZpVWFFcE5SQXBvcFJHZktkLTlBRGR5UUpLS2NLU0l2b2wySUwxbV91bkRTU2tha3NLeXRmcDk3QTdUWHl4NHJaOHJwRTZ3Z0ZRVWtJM0FpRGtJa3pnb0QwY3ZTZFc3c3V4elZGbHNwcmlyNG9Gcko1bUFrRDhwM0hBaU9qWlNRS1FKVktoYWlsU2tFTGRjRFlkeDRkYi1aT1h0XzhJZTNzdHA0IiwiaWQiOiJmY18xIn0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UGVsVlBhVGxoZG5jMVEwcFdSVXhSWjBOdlUwTkpTVXBqUjFkSFlrUmxkWGxhWjBsaU5YbEZOa2xSUVVGWmRXVk1lVXhaY1VjMWMzbHZiVWRPY0RCQk1tTnNTV0Z5RWhkbVZVTTVXbkZwZGtkd1dHWnJVRWxRYzFsbE1UQkJWUm9pUVVaWWNrVmpjSEpuYjJKNk1XWnNMVGg1WWtkeVdUZGlWVU5YTjBKcE1HRmpRUSIsImZjdiI6IjMiLCJlaSI6ImZVQzlacWl2R3BYZmtQSVBzWWUxMEFVIiwicWMiOiJDZ2x6Y21GaklITnFjM1VRQUgwbGd6c18iLCJxdWVzdGlvbiI6IkRvZXMgU2FuIEpvc2UgU3RhdGUgaGF2ZSBhIGd5bT8iLCJsayI6IkdoNWtiMlZ6SUhOaGJpQnFiM05sSUhOMFlYUmxJR2hoZG1VZ1lTQm5lVzAiLCJicyI6ImMzMk9Pd3JDUUJCQXNWMFVCRC1FRkRxZ1ZqYVNDd1JSQkZPNlNPb2xtU1FiNDBaMk5vSW5FaHNQNE9uY2lBRlJzSnBpM3BzM2JNUEdXd0llOEQzdzNYSUZpVWFFcE5SQXBvcFJHZktkLTlBRGR5UUpLS2NLU0l2b2wySUwxbV91bkRTU2tha3NLeXRmcDk3QTdUWHl4NHJaOHJwRTZ3Z0ZRVWtJM0FpRGtJa3pnb0QwY3ZTZFc3c3V4elZGbHNwcmlyNG9Gcko1bUFrRDhwM0hBaU9qWlNRS1FKVktoYWlsU2tFTGRjRFlkeDRkYi1aT1h0XzhJZTNzdHA0IiwiaWQiOiJmY18xIn0%3D"
+        },
+        {
+            "question": "What is SJSU electrical engineering ranked?",
+            "snippet": "Additional national engineering rankings include: In SJSU's debut of the Electrical/Electronic/Communications ranking, electrical engineering ranks #3 among public universities and #8 overall. Mechanical engineering ranks #6 among public universities and #12 overall — up two spots from the 2023 rankings.",
+            "title": "We're #1! SJSU is the Top Public University in the West for Best ...",
+            "date": "Sep 18, 2023",
+            "link": "https://blogs.sjsu.edu/newsroom/2023/were-1-sjsu-is-the-top-public-university-in-the-west-for-best-value-in-new-u-s-news-and-world-report-rankings/#:~:text=Additional%20national%20engineering%20rankings%20include,spots%20from%20the%202023%20rankings.",
+            "displayed_link": "https://blogs.sjsu.edu › newsroom › were-1-sjsu-is-the-to...",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5uIHYNcY1oI6HtDMEh62IsRQvenftSu5dFvlPFC-K2zrwd2FrFw8EbpAcyA&s",
+            "source_logo": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/f2d3c54847e8e3e907d92216b78578edd9bf19866104aed5d2fb8fd70c5438f5.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UGVsVlBhVGxoZG5jMVEwcFdSVXhSWjBOdlUwTkpTVXBqUjFkSFlrUmxkWGxhWjBsaU5YbEZOa2xSUVVGWmRXVk1lVXhaY1VjMWMzbHZiVWRPY0RCQk1tTnNTV0Z5RWhkbVZVTTVXbkZwZGtkd1dHWnJVRWxRYzFsbE1UQkJWUm9pUVVaWWNrVmpjSEpuYjJKNk1XWnNMVGg1WWtkeVdUZGlWVU5YTjBKcE1HRmpRUSIsImZjdiI6IjMiLCJlaSI6ImZVQzlacWl2R3BYZmtQSVBzWWUxMEFVIiwicWMiOiJDZ2x6Y21GaklITnFjM1VRQUgwbGd6c18iLCJxdWVzdGlvbiI6IldoYXQgaXMgU0pTVSBlbGVjdHJpY2FsIGVuZ2luZWVyaW5nIHJhbmtlZD8iLCJsayI6IkdpTnphbk4xSUdWc1pXTjBjbWxqWVd3Z1pXNW5hVzVsWlhKcGJtY2djbUZ1YTJsdVp3IiwiYnMiOiJjMzJPT3dyQ1FCQkFzVjBVQkQtRUZEcWdWamFTQ3dSUkJGTzZTT29sbVNRYjQwWjJOb0luRWhzUDRPbmNpQUZSc0pwaTNwczNiTVBHV3dJZThEM3czWElGaVVhRXBOUkFwb3BSR2ZLZC05QURkeVFKS0tjS1NJdm9sMklMMW1fdW5EU1NrYWtzS3l0ZnA5N0E3VFh5eDRyWjhycEU2d2dGUVVrSTNBaURrSWt6Z29EMGN2U2RXN3N1eHpWRmxzcHJpcjRvRnJKNW1Ba0Q4cDNIQWlPalpTUUtRSlZLaGFpbFNrRUxkY0RZZHg0ZGItWk9YdF84SWUzc3RwNCIsImlkIjoiZmNfMSJ9",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210UGVsVlBhVGxoZG5jMVEwcFdSVXhSWjBOdlUwTkpTVXBqUjFkSFlrUmxkWGxhWjBsaU5YbEZOa2xSUVVGWmRXVk1lVXhaY1VjMWMzbHZiVWRPY0RCQk1tTnNTV0Z5RWhkbVZVTTVXbkZwZGtkd1dHWnJVRWxRYzFsbE1UQkJWUm9pUVVaWWNrVmpjSEpuYjJKNk1XWnNMVGg1WWtkeVdUZGlWVU5YTjBKcE1HRmpRUSIsImZjdiI6IjMiLCJlaSI6ImZVQzlacWl2R3BYZmtQSVBzWWUxMEFVIiwicWMiOiJDZ2x6Y21GaklITnFjM1VRQUgwbGd6c18iLCJxdWVzdGlvbiI6IldoYXQgaXMgU0pTVSBlbGVjdHJpY2FsIGVuZ2luZWVyaW5nIHJhbmtlZD8iLCJsayI6IkdpTnphbk4xSUdWc1pXTjBjbWxqWVd3Z1pXNW5hVzVsWlhKcGJtY2djbUZ1YTJsdVp3IiwiYnMiOiJjMzJPT3dyQ1FCQkFzVjBVQkQtRUZEcWdWamFTQ3dSUkJGTzZTT29sbVNRYjQwWjJOb0luRWhzUDRPbmNpQUZSc0pwaTNwczNiTVBHV3dJZThEM3czWElGaVVhRXBOUkFwb3BSR2ZLZC05QURkeVFKS0tjS1NJdm9sMklMMW1fdW5EU1NrYWtzS3l0ZnA5N0E3VFh5eDRyWjhycEU2d2dGUVVrSTNBaURrSWt6Z29EMGN2U2RXN3N1eHpWRmxzcHJpcjRvRnJKNW1Ba0Q4cDNIQWlPalpTUUtRSlZLaGFpbFNrRUxkY0RZZHg0ZGItWk9YdF84SWUzc3RwNCIsImlkIjoiZmNfMSJ9"
+        }
+    ],
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "Spartan Recreation",
+            "link": "https://www.spartanrecreation.com/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.spartanrecreation.com/&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQFnoECEcQAQ",
+            "displayed_link": "https://www.spartanrecreation.com",
+            "favicon": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/7d4570f0e39a8319746d105a5231bedfa5ebb3096c855bcb5ad11023ab35b62d.png",
+            "snippet": "Welcome! The SRAC weight rooms, bouldering wall, track, and pool area are ... SJSU. One Washington Square San Jose, CA 95192 · 408-924-1000 · Accessibility ...",
+            "snippet_highlighted_words": [
+                "SRAC",
+                "SJSU"
+            ],
+            "sitelinks": {
+                "expanded": [
+                    {
+                        "title": "Memberships",
+                        "link": "https://www.spartanrecreation.com/membership",
+                        "snippet": "Get to know your benefits. SRAC Membership includes: Access to ..."
+                    },
+                    {
+                        "title": "Hours",
+                        "link": "https://www.spartanrecreation.com/hours",
+                        "snippet": "SRAC. Summer 2024 Hours. Monday - Friday: 7 AM - 9 PM ..."
+                    },
+                    {
+                        "title": "Group Fitness",
+                        "link": "https://www.spartanrecreation.com/group-fitness",
+                        "snippet": "... (SRAC) and its Auxiliary facilities on the premises of the ..."
+                    },
+                    {
+                        "title": "Facilities",
+                        "link": "https://www.spartanrecreation.com/facilities",
+                        "snippet": "Spartan Recreation and Aquatic Center. No matter how you get ..."
+                    },
+                    {
+                        "title": "Sports",
+                        "link": "https://www.spartanrecreation.com/sports",
+                        "snippet": "Club Sports. Club Sports teams represent SJSU ... Open ..."
+                    }
+                ]
+            },
+            "source": "Spartan Recreation"
+        },
+        {
+            "position": 2,
+            "title": "Spartan Recreation and Aquatic Center Member Portal",
+            "link": "https://fitness.sjsu.edu/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://fitness.sjsu.edu/&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQFnoECEAQAQ",
+            "displayed_link": "https://fitness.sjsu.edu",
+            "favicon": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/7d4570f0e39a8319746d105a5231bedf56fd53d726fb54fc27077985d8a1303b.png",
+            "snippet": "News. Welcome to the new SJSU Recreation portal. calendar_todayApr 10, 2018 ... Mon, Aug 12 2024. 7:30 AM. SJSU Cheerleading Team Practice · 11:00 AM. OPEN ...",
+            "snippet_highlighted_words": [
+                "SJSU",
+                "SJSU"
+            ],
+            "source": "San Jose State University"
+        },
+        {
+            "position": 3,
+            "title": "Spartan Recreation | Student Union, Inc. at SJSU",
+            "link": "https://www.sjsu.edu/studentunion/spartan-recreation/index.php",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.sjsu.edu/studentunion/spartan-recreation/index.php&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQFnoECEUQAQ",
+            "displayed_link": "https://www.sjsu.edu › studentunion › spartan-recreation",
+            "favicon": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/7d4570f0e39a8319746d105a5231bedfa57eec820f08c665753dceadd0cc6853.png",
+            "date": "Oct 12, 2021",
+            "snippet": "The SRAC offers cycling classes, a rock-climbing wall, join a pick-up game, or just hang out by the recreation pool. SRAC offers you a way ...",
+            "snippet_highlighted_words": [
+                "SRAC",
+                "SRAC"
+            ],
+            "source": "San Jose State University"
+        },
+        {
+            "position": 4,
+            "title": "Spartan Recreation (@sjsu_spartanrec)",
+            "link": "https://www.instagram.com/sjsu_spartanrec/?hl=en",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.instagram.com/sjsu_spartanrec/%3Fhl%3Den&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQFnoECEMQAQ",
+            "displayed_link": "3.2K+ followers",
+            "favicon": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/7d4570f0e39a8319746d105a5231bedfce14572a8818400605214a152dab7018.png",
+            "snippet": "3171 Followers, 87 Following, 103 Posts - Spartan Recreation (@sjsu_spartanrec) on Instagram: \"Student Union, Inc. I San Jose State University Spartan Rec ...",
+            "snippet_highlighted_words": [
+                "San Jose State University"
+            ],
+            "source": "Instagram · sjsu_spartanrec"
+        },
+        {
+            "position": 5,
+            "title": "Spartan Recreation | San Jose CA",
+            "link": "https://www.facebook.com/sjsuspartanrec/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.facebook.com/sjsuspartanrec/&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQFnoECEIQAQ",
+            "displayed_link": "1.4K+ followers",
+            "favicon": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/7d4570f0e39a8319746d105a5231bedf9e1be93b6c56d537c918ce95d3ee77f7.png",
+            "snippet": "🗓️ Oct 10 - Nov 17 | Every Tuesdays and Fridays, from 1:15 PM to 2:15 PM Studio A, Spartan Recreation and Aquatic Center Register for $20 at the SRAC ...",
+            "snippet_highlighted_words": [
+                "SRAC"
+            ],
+            "rich_snippet": {
+                "top": {
+                    "detected_extensions": {
+                        "rating": 5,
+                        "votes": 7
+                    },
+                    "extensions": [
+                        "Rating: 5",
+                        "‎7 votes"
+                    ]
+                }
+            },
+            "source": "Facebook · Spartan Recreation"
+        },
+        {
+            "position": 6,
+            "title": "SRAC Pool - San Jose",
+            "link": "https://sjsuspartans.com/facilities/srac-pool",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://sjsuspartans.com/facilities/srac-pool&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQFnoFCIUBEAE",
+            "displayed_link": "https://sjsuspartans.com › facilities › srac-pool",
+            "favicon": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/7d4570f0e39a8319746d105a5231bedf13bd3f9a2d09f5905169dfd0f9762d37.png",
+            "snippet": "The Spartan Recreation and Aquatic Center (SRAC) opened in 2019. The sparkling building serves the entire student body, with cardio and weight areas, workout ...",
+            "snippet_highlighted_words": [
+                "SRAC"
+            ],
+            "source": "SJSU Athletics"
+        },
+        {
+            "position": 7,
+            "title": "SJSU Student Recreation & Aquatic Center",
+            "link": "https://www.usgbc.org/projects/sjsu-student-recreation-aquatic-center?view=scorecard",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.usgbc.org/projects/sjsu-student-recreation-aquatic-center%3Fview%3Dscorecard&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQFnoFCIYBEAE",
+            "displayed_link": "https://www.usgbc.org › projects › sjsu-student-recreati...",
+            "favicon": "https://serpapi.com/searches/66bd407d5ddfba519937412d/images/7d4570f0e39a8319746d105a5231bedfe40bee12a4790c7dcd5214035b089246.png",
+            "snippet": "SJSU Student Recreation & Aquatic Center. Address: ONE WASHINGTON SQUARE, SAN JOSE, California, United States, 95192. Rating system: LEED BD+C: New ...",
+            "snippet_highlighted_words": [
+                "SJSU"
+            ],
+            "source": "U.S. Green Building Council"
+        }
+    ],
+    "related_searches": [
+        {
+            "block_position": 1,
+            "query": "Srac sjsu hours",
+            "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=Srac+sjsu+hours&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ1QJ6BQiUARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=Srac+sjsu+hours"
+        },
+        {
+            "block_position": 1,
+            "query": "Srac sjsu map",
+            "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=Srac+sjsu+map&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ1QJ6BQiSARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=Srac+sjsu+map"
+        },
+        {
+            "block_position": 1,
+            "query": "SRAC guest pass",
+            "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=SRAC+guest+pass&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ1QJ6BQiRARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+guest+pass"
+        },
+        {
+            "block_position": 1,
+            "query": "Is SJSU gym free for students",
+            "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=Is+SJSU+gym+free+for+students&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ1QJ6BQiOARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=Is+SJSU+gym+free+for+students"
+        },
+        {
+            "block_position": 1,
+            "query": "Srac sjsu swimming",
+            "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=Srac+sjsu+swimming&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ1QJ6BQiPARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=Srac+sjsu+swimming"
+        },
+        {
+            "block_position": 1,
+            "query": "SJSU gym Membership",
+            "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=SJSU+gym+Membership&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ1QJ6BQiQARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SJSU+gym+Membership"
+        },
+        {
+            "block_position": 1,
+            "query": "SJSU SRAC jobs",
+            "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=SJSU+SRAC+jobs&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ1QJ6BQiNARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SJSU+SRAC+jobs"
+        },
+        {
+            "block_position": 1,
+            "query": "SJSU srac reservation",
+            "link": "https://www.google.com/search?sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&q=SJSU+srac+reservation&sa=X&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ1QJ6BQiWARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SJSU+srac+reservation"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=10&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8NMDegQIDhAW",
+        "other_pages": {
+            "2": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=10&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAE",
+            "3": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=20&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAG",
+            "4": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=30&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAI",
+            "5": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=40&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAK",
+            "6": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=50&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAM",
+            "7": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=60&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAO",
+            "8": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=70&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAQ",
+            "9": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=80&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAS",
+            "10": "https://www.google.com/search?q=SRAC+SJSU&sca_esv=41a53a54b5bc3fc7&gl=us&hl=en&ei=fUC9ZqivGpXfkPIPsYe10AU&start=90&sa=N&sstk=Aagrsug9E3BT7hfFv4fLy4CzJFbEcjAHR44nwjM6vlI1ozsyKjTa9b3ArWD1BgR3Q03KNq0p5Ps-OFSf3gToYa46JfKQtF9JHoaB9g&ved=2ahUKEwjo4aeK1PWHAxWVL0QIHbFDDVoQ8tMDegQIDhAU"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=10",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=10",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=10",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=20",
+            "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=30",
+            "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=40",
+            "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=50",
+            "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=60",
+            "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=70",
+            "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=80",
+            "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=San+Jose%2C+California%2C+United+States&q=SRAC+SJSU&start=90"
+        }
     }
 }

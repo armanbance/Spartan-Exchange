@@ -8,9 +8,6 @@ function HowCrowded() {
   const [email, setEmail] = useState('')
   const [notification, setNotification] = useState('')
   const [user, setUser] = useState(null)
-
-  
-
   return (
     <div className="text-white text-4xl font-bold text-center">
       Personal fitness plan
