@@ -6,7 +6,9 @@ const cors = require('cors')
 const usersRouter = require('./controllers/users')
 const loginRouter = require('./controllers/login')
 const gymDataRouter = require('./controllers/gymData')
-const copyRouter = require('./controllers/copy')
+const crowdednessRouter = require('./controllers/crowdedness')
+const timeRouter = require('./controllers/time')
+
 
 const middleware = require('./utils/middleware')
 const logger = require('./utils/logger')
@@ -32,7 +34,9 @@ app.use(middleware.requestLogger)
 app.use('/api/users', usersRouter)
 app.use('/api/login', loginRouter)
 app.use('/api/gymData', gymDataRouter)
-app.use('/api/copy', copyRouter)
+app.use('/api/crowdedness', crowdednessRouter)
+app.use('/api/time', timeRouter)
+
 
 // if (process.env.NODE_ENV === 'test') {
 //   const testingRouter = require('./controllers/testing')
