@@ -5,7 +5,7 @@ import About from './components/About';
 import Login from './components/Login';
 import CreateAccount from './components/CreateAccount'
 import HowCrowded from './components/HowCrowded'
-import FitnessPlan from './components/FitnessPlan'
+import Training from './components/Training'
 
 import loginService from './services/login'
 import backgroundImage from './assets/SRAC.jpg'
@@ -72,13 +72,10 @@ function App() {
 
               </div>
             
-              {/* <div className='flex-1 text-center'>
-                <Link className="text-gray-300 hover:text-blue-700 px-3 text-5xl font-bold" to="/howCrowded">Crowdedness</Link>
-                <Link className="text-gray-300 hover:text-blue-700 px-3 text-5xl font-bold" to="/fitnessPlan">Training</Link>
-              </div> */}
+            
               <div className='flex-1 text-right'>
                 <Link className="text-gray-300 hover:text-blue-700 px-3 font-bold" to="/howCrowded">Crowdedness</Link>
-                <Link className="text-gray-300 hover:text-blue-700 px-3 font-bold" to="/fitnessPlan">Training</Link>
+                <Link className="text-gray-300 hover:text-blue-700 px-3 font-bold" to="/training">Training</Link>
                 <Link className="text-gray-300 hover:text-blue-700 px-3 font-bold" to="/about">About</Link>
               </div>
               
@@ -91,7 +88,7 @@ function App() {
               <Route path="/login" element={<Login setUser={setUser}/>} />
               <Route path="/createAccount" element={<CreateAccount />} />
               <Route path="/howCrowded" element={<HowCrowded />} />
-              <Route path="/fitnessPlan" element={<FitnessPlan />} />
+              <Route path="/training" element={<Training />} />
             </Routes>
           </div>
         </div>

@@ -8,7 +8,7 @@ const loginRouter = require('./controllers/login')
 const gymDataRouter = require('./controllers/gymData')
 const busynessRouter = require('./controllers/busyness')
 const timeRouter = require('./controllers/time')
-
+const trainingRouter = require('./controllers/training')
 
 const middleware = require('./utils/middleware')
 const logger = require('./utils/logger')
@@ -36,6 +36,7 @@ app.use('/api/login', loginRouter)
 app.use('/api/gymData', gymDataRouter)
 app.use('/api/busyness', busynessRouter)
 app.use('/api/time', timeRouter)
+app.use('/api/training', trainingRouter)
 
 
 // if (process.env.NODE_ENV === 'test') {

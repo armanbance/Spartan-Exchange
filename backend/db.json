@@ -107,27 +107,27 @@
                     },
                     {
                         "time": "8 AM",
-                        "busyness_score": 0
+                        "busyness_score": 5
                     },
                     {
                         "time": "9 AM",
-                        "busyness_score": 0
+                        "busyness_score": 8
                     },
                     {
                         "time": "10 AM",
-                        "busyness_score": 0
+                        "busyness_score": 15
                     },
                     {
                         "time": "11 AM",
-                        "busyness_score": 0
+                        "busyness_score": 20
                     },
                     {
                         "time": "12 PM",
-                        "busyness_score": 0
+                        "busyness_score": 22
                     },
                     {
                         "time": "1 PM",
-                        "busyness_score": 0
+                        "busyness_score": 23
                     },
                     {
                         "time": "2 PM",
@@ -171,10 +171,6 @@
                     {
                         "time": "10 PM",
                         "busyness_score": 0
-                    },
-                    {
-                        "time": "11 PM",
-                        "busyness_score": 0
                     }
                 ],
                 "tuesday": [
@@ -184,31 +180,31 @@
                     },
                     {
                         "time": "7 AM",
-                        "busyness_score": 0
+                        "busyness_score": 5
                     },
                     {
                         "time": "8 AM",
-                        "busyness_score": 0
+                        "busyness_score": 8
                     },
                     {
                         "time": "9 AM",
-                        "busyness_score": 0
+                        "busyness_score": 12
                     },
                     {
                         "time": "10 AM",
-                        "busyness_score": 0
+                        "busyness_score": 18
                     },
                     {
                         "time": "11 AM",
-                        "busyness_score": 0
+                        "busyness_score": 20
                     },
                     {
                         "time": "12 PM",
-                        "busyness_score": 0
+                        "busyness_score": 26
                     },
                     {
                         "time": "1 PM",
-                        "busyness_score": 0
+                        "busyness_score": 35
                     },
                     {
                         "time": "2 PM",
@@ -247,15 +243,11 @@
                     },
                     {
                         "time": "9 PM",
-                        "busyness_score": 0
+                        "busyness_score": 34
                     },
                     {
                         "time": "10 PM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "11 PM",
-                        "busyness_score": 0
+                        "busyness_score": 16
                     }
                 ],
                 "wednesday": [
@@ -339,10 +331,6 @@
                     },
                     {
                         "time": "10 PM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "11 PM",
                         "busyness_score": 0
                     }
                 ],
@@ -428,10 +416,6 @@
                     {
                         "time": "10 PM",
                         "busyness_score": 0
-                    },
-                    {
-                        "time": "11 PM",
-                        "busyness_score": 0
                     }
                 ],
                 "friday": [
@@ -516,10 +500,6 @@
                     {
                         "time": "10 PM",
                         "busyness_score": 0
-                    },
-                    {
-                        "time": "11 PM",
-                        "busyness_score": 0
                     }
                 ],
                 "saturday": [
@@ -588,46 +568,13 @@
                     {
                         "time": "7 PM",
                         "busyness_score": 0
-                    },
-                    {
-                        "time": "8 PM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "9 PM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "10 PM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "11 PM",
-                        "busyness_score": 0
                     }
                 ],
                 "sunday": [
                     {
-                        "time": "6 AM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "7 AM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "8 AM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "9 AM",
-                        "info": "Usually not busy",
-                        "busyness_score": 9
-                    },
-                    {
                         "time": "10 AM",
                         "info": "Usually not busy",
-                        "busyness_score": 16
+                        "busyness_score": 17
                     },
                     {
                         "time": "11 AM",
@@ -671,23 +618,19 @@
                     },
                     {
                         "time": "7 PM",
-                        "busyness_score": 0
+                        "busyness_score": 25
                     },
                     {
                         "time": "8 PM",
-                        "busyness_score": 0
+                        "busyness_score": 18
                     },
                     {
                         "time": "9 PM",
-                        "busyness_score": 0
+                        "busyness_score": 15
                     },
                     {
                         "time": "10 PM",
-                        "busyness_score": 0
-                    },
-                    {
-                        "time": "11 PM",
-                        "busyness_score": 0
+                        "busyness_score": 5
                     }
                 ]
             }

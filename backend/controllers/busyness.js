@@ -73,8 +73,9 @@ busynessRouter.get('/', async (request, response) => {
 
     const busyness = findBusynessScore(convertedTime, currentDay)
 
+    console.log("BUSYINESS",convertedTime)
     currentDay = currentDay.charAt(0).toUpperCase() + currentDay.slice(1) //capitalizing first letter
-    response.json({"busyness": busyness, "day": currentDay})
+    response.json({"busyness": busyness, "day": currentDay, "time": convertedTime})
 
   } catch (error) {
     console.error("Error in fetching busyness score: ", error);
