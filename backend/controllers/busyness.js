@@ -1,4 +1,4 @@
-const crowdednessRouter = require('express').Router()
+const busynessRouter = require('express').Router()
 const data = require('../db.json')
 const url = "https://timeapi.io/api/time/current/zone?timeZone=America%2FPhoenix"
 const axios = require('axios'); 
@@ -63,7 +63,7 @@ async function getDay() {
     response.status(500).json({ error: 'Could not get time data' });
   }
 }
-crowdednessRouter.get('/', async (request, response) => {
+busynessRouter.get('/', async (request, response) => {
   try {
     const currentHour = await getTime();
     let currentDay = await getDay();
@@ -73,8 +73,8 @@ crowdednessRouter.get('/', async (request, response) => {
 
     const busyness = findBusynessScore(convertedTime, currentDay)
 
-    
-    response.json(busyness)
+    currentDay = currentDay.charAt(0).toUpperCase() + currentDay.slice(1) //capitalizing first letter
+    response.json({"busyness": busyness, "day": currentDay})
 
   } catch (error) {
     console.error("Error in fetching busyness score: ", error);
@@ -82,4 +82,4 @@ crowdednessRouter.get('/', async (request, response) => {
   }
   })
 
-module.exports = crowdednessRouter
+module.exports = busynessRouter

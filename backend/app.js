@@ -6,7 +6,7 @@ const cors = require('cors')
 const usersRouter = require('./controllers/users')
 const loginRouter = require('./controllers/login')
 const gymDataRouter = require('./controllers/gymData')
-const crowdednessRouter = require('./controllers/crowdedness')
+const busynessRouter = require('./controllers/busyness')
 const timeRouter = require('./controllers/time')
 
 
@@ -34,7 +34,7 @@ app.use(middleware.requestLogger)
 app.use('/api/users', usersRouter)
 app.use('/api/login', loginRouter)
 app.use('/api/gymData', gymDataRouter)
-app.use('/api/crowdedness', crowdednessRouter)
+app.use('/api/busyness', busynessRouter)
 app.use('/api/time', timeRouter)
 
 
