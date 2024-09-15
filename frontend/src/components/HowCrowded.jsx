@@ -34,7 +34,7 @@ function HowCrowded() {
   return (
     <div className="text-white text-4xl font-bold text-center">
       How Crowded is the SRAC at {time}?
-      <div> Well, the rating right now is {result} </div>
+      <div>Busyness Rating: {result} </div>
       <br></br>
     </div>
   );

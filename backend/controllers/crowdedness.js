@@ -4,34 +4,49 @@ const url = "https://timeapi.io/api/time/current/zone?timeZone=America%2FPhoenix
 const axios = require('axios'); 
 
 
-function findBusynessScore(currentHour, busynessData) {
-  return busynessData.find(item => {
-    let timeParts = item.time.split(" "); // Split time (e.g., ["6", "AM"])
-    let hour = parseInt(timeParts[0]);
+function findBusynessScore(convertedTime, currentDay) {
+  let array = data.knowledge_graph.popular_times.graph_results[currentDay]
+  let time = convertedTime
+  let busynessObject = array.find(item => {
 
-    if (timeParts[1] === 'PM' && hour !== 12) {
-      hour += 12; // Convert to 24-hour format for PM times
-    }
-
-    return currentHour === hour;
-
+    return item.time.replace(/\s/g, "") === time.replace(/\s/g, "")
   })
+  return busynessObject ? busynessObject.busyness_score : "SRAC IS CURRENTLY CLOSED";
 }
+function convertTime(currentHour) {
+  let hour = currentHour;
 
+  if (hour.startsWith(13) || hour.startsWith(14) || hour.startsWith(15) || hour.startsWith(16) || hour.startsWith(17) || hour.startsWith(18) ||  
+  hour.startsWith(19) || hour.startsWith(20) || hour.startsWith(21) || hour.startsWith(22) || hour.startsWith(23) || hour.startsWith(24)) {
+    let time = hour.substring(0,2)
+    time = parseInt(time)
+    time = time-12
+    return time+" PM";
+  }
+  else if (hour.startsWith(0)) {
+    let time = "12 AM"
+    return time
+  }
+  else if (hour.startsWith(12)) {
+    let time = hour.substring(0,2)
+    return time + " PM"
+  }
+  else if (hour.startsWith(10) || hour.startsWith(11)) {
+    let time = hour.substring(0,2)
+
+    return time + " AM"
+  }
+  else {
+    let time = hour.substring(0,1)
+    return time + " AM"
+  }
+}
 async function getTime() {
   try {
     const result = await axios.get(url);
     const data = result.data.time;
-    let num = parseInt(data)
-    if (num>12) {
-        let hour = num-12;
-        let minute = data.substring(3,5)
-      let time = hour+":"+minute
-      return time
-    }
-    else {
-      return num
-   }
+    return data
+
   } catch (error) {
     console.error("Error ", error);
     response.status(500).json({ error: 'Could not get time data' });
@@ -49,43 +64,22 @@ async function getDay() {
   }
 }
 crowdednessRouter.get('/', async (request, response) => {
-  // const time = async () => {
-  //   try {
-  //     const time = await getTime()
-  //     return time
-  //   }
-  //   catch (error) {
-  //     console.log(error)
-  //   }
-    
-  // }
-  // response.json("HI")
-
-
   try {
-    // const currentHour = await getTime();
-    // const currentDay = await getDay()
-    const currentHour = "1:12"
-    let currentDay = "monday"
+    const currentHour = await getTime();
+    let currentDay = await getDay();
     currentDay = currentDay.toLowerCase()
 
-    const popularTimes = data.knowledge_graph.popular_times.graph_results[currentDay][9].busyness_score
+    const convertedTime = convertTime(currentHour)
 
-    if (currentHour.startsWith(10) || currentHour.startsWith(11) || currentHour.startsWith(12)) {
-      response.json(currentHour.substring(0,2)+", "+currentDay)
-    }
-    else {
-      // response.json(currentHour.substring(0,1)+", "+currentDay)
-      response.json(popularTimes)
-    }
+    const busyness = findBusynessScore(convertedTime, currentDay)
+
+    
+    response.json(busyness)
+
   } catch (error) {
     console.error("Error in fetching busyness score: ", error);
     response.status(500).json({ error: 'Could not retrieve busyness score' });
   }
-
-
-  // response.json(result)
-  // response.json(data.knowledge_graph.popular_times.graph_results.monday[0].busyness_score)
   })
 
 module.exports = crowdednessRouter
