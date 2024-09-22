@@ -23,11 +23,8 @@ function CreateAccount() {
     console.log("email:",newUser.email)
     try {
       await userService.createUser(newUser)
-      setNotification(`Account creation successful! Going to login page...`)
+      setNotification(`Account creation successful! Check email for verification.`)
       setUser(newUser)
-      setTimeout(() => {
-        navigate('/login');
-      }, 1750);
     }
     catch (error) {
       if (error.message.includes(401)) {
@@ -40,7 +37,7 @@ function CreateAccount() {
     }
     setTimeout(() => {
       setNotification('');
-    }, 3000);
+    }, 10000);
     setUsername('')
     setEmail('')
     setPassword('')

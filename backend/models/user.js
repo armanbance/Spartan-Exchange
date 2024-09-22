@@ -11,7 +11,10 @@ const userSchema = new mongoose.Schema({
     required:true,
     unique:true
   },
-  passwordHash: String
+  passwordHash: String,
+  verified: { type: Boolean, default: false },
+  verificationToken: { type: String }
+  
   
 })
 // userSchema.index({ email: 1 }, { unique: true });

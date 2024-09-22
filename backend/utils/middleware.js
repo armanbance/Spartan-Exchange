@@ -33,6 +33,15 @@ const errorHandler = (error, request, response, next) => {
     return response.status(401).json({
       error: 'token expired'
     })
+  } else if (error.name === 'EmailError') {
+    return response.status(500).json({ error: 'Failed to send verification email' })
+  } 
+  // Handle invalid token error during verification
+  else if (error.name === 'InvalidTokenError') {
+    return response.status(400).json({ error: 'Invalid or expired verification token' })
+  }
+  else if (error.name === 'InvalidTokenError') {
+    return response.status(400).json({ error: 'Invalid or expired verification token' })
   }
 
   next(error)

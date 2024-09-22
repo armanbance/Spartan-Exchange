@@ -5,10 +5,12 @@ POST http://localhost:3001/api/users
 Content-Type: application/json
 
 {
-    "username": "pablooooo",
-    "email": "pablo@gmail.com",
+    "username": "test",
+    "email": "test@gmail.com",
     "password": "123"
 }
+###
+DELETE http://localhost:3001/api/users
 
 
 # GET http://localhost:3001/api/users
